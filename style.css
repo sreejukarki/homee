@@ -1,0 +1,179 @@
+.navbar{
+    background-color: #dfd9d9;
+    border-radius: 50px 50px;
+}
+.navbar ul{
+    overflow:auto;
+    border-radius: 30px;
+    
+   
+}
+
+.navbar li
+{
+    float: right;
+    list-style: none;
+    margin: 13px 20px;
+   
+}
+.navbar li a{
+    text-align: center;
+    padding: 13px 20px;
+    text-decoration: none;
+    color: antiquewhite;
+    cursor: pointer;
+    color: black;
+    text: bolder;
+}
+
+.navbar h1{
+    float: left;
+    list-style: none;
+    margin:11px 15px;
+    color: antiquewhite;
+    color:black;
+   
+}
+
+    
+
+  
+
+
+.student-details{
+display: flex;
+justify-content: space-evenly;
+width: 50%;
+margin-left: 400px;
+margin-top: 20px;
+border: 1px solid #a1e709;
+border: bolder;
+border-radius: 50px 50px;
+}
+.container{
+
+display: flex;
+padding-left:20px ;
+}
+
+.category span{
+    display: block;
+    padding: 10px;
+
+}
+.category1 span{
+    display: block;
+    padding: 10px;
+}
+.tall{
+    color: blueviolet;
+}
+#student{
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 10px
+}
+.he{
+    font-weight: bolder;
+    color: chartreuse;
+
+}
+.garp{
+    display: flex;
+
+}
+ body
+ {
+    background-image: url('photo.jpg');
+    margin: 0px;
+    padding: 0px;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+
+
+ }
+ #student
+ {
+  
+    border: bolder;
+    color: royalblue;
+ }
+ .pages h2{
+    color:beige;
+ }
+ .loginpages
+ {
+    width: 320px;
+    height: 420px;
+    background: black;
+    color: #fff;
+    top: 50%;
+    left:50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+   
+    
+   
+   
+ }
+ .img
+ {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px)
+ }
+ h2
+ {
+    margin: 0px;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+
+ }
+ .loginpages  p 
+ {
+margin: 0px;
+padding: 0px;
+font-weight: bold;
+ }
+ .loginpages input
+ {
+    width: 100%;
+    margin-bottom: 20px;
+ }
+ .loginpages input[type="text"], input[type="password"]
+ {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+ }
+ .loginpages input[type="submit"]
+ {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+ }
+ .loginpages input[type="submit"]:hover
+
+ {
+cursor: pointer;
+background: #ffc107;
+color: #000;
+ }
+ .loginpages a:hover
+ {
+    color: aliceblue;
+ }

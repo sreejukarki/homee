@@ -1,0 +1,16 @@
+.grid-container
+{
+
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: repeat(4, 50px);
+    gap: 10px;
+    background-color: aqua;
+    padding: 10px;
+}
+.grid-container > div{
+    background-color: blanchedalmond;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
